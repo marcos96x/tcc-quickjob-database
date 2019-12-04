@@ -4,10 +4,10 @@ delimiter $
         in email varchar(70),
         in senha varchar(70),
         in nascimento date,
-        in cpf varchar(11),
-        in cnpj varchar(14),
+        in cpf varchar(20),
+        in cnpj varchar(20),
         in telefone varchar(18),
-        in cep varchar(12)
+        in cep varchar(20)
     )
 	begin
 		if exists (select * from tb_usuario where ds_email = email) then

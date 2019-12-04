@@ -11,8 +11,8 @@ create table tb_usuario(
 	nm_usuario varchar(70) not null,
 	dt_nascimento date not null,
 	tel_usuario varchar(18),
-	cd_cpf varchar(11),
-	cd_cnpj varchar(14),
+	cd_cpf varchar(20),
+	cd_cnpj varchar(20),
     cd_cep varchar(12),
 	constraint pk_usuario
 		primary key(cd_usuario)
