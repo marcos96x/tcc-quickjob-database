@@ -1,5 +1,5 @@
 delimiter $
-	create procedure prBusca_servico_usuario(in codigo int)
+	create procedure prBusca_servico_usuario(in codigo varchar(50))
 		begin
 			select s.cd_servico, s.nm_servico, s.ds_servico
 				from tb_servico s
