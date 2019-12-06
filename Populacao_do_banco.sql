@@ -26,16 +26,17 @@ use db_quickjob;
     insert into tb_contato(cd_contato, tel_contato, email_contato, cd_usuario) values(9, '11993324627', 'anthonymanueldarocha@gmail.com', 9);
     insert into tb_contato(cd_contato, tel_contato, email_contato, cd_usuario) values(10, '11994754656', 'luizaelzadrumond@gmail.com', 10);   
     
+select * from tb_servico;
 
 	-- servico    
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(1,'Babá', 'Babá de crianças e adolescentes, valor por dia', 100.00,1, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(2,'Cuidadora de idosos', 'Cuidadora de idosos, R$20 a hora', 20.00,2, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(3,'Faxineira', 'Faxinas mensais', 150.00,3, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(4,'Cozinheiro', 'Cozinheiro pessoal, cobro por dia', 80.00,4, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(5,'Pedreiro', 'Preço a negociar', 00.00,5, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(6,'Cozinheiro', 'Fazemos entregas!', 15.00,6, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(7,'Faxineiro', 'Preço por semana', 120.00,7, 0);
-    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario) values(8,'Cabeleireiro', 'Cabeleireiro UNISSEX, R$15.00 as quartas!', 20.00,8, 0);    
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(1,'Babá', 'Babá de crianças e adolescentes, valor por dia', 100.00,1, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(2,'Cuidadora de idosos', 'Cuidadora de idosos, R$20 a hora', 20.00,2, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(3,'Faxineira', 'Faxinas mensais', 150.00,3, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(4,'Cozinheiro', 'Cozinheiro pessoal, cobro por dia', 80.00,4, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(5,'Pedreiro', 'Preço a negociar', 00.00,5, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(6,'Cozinheiro', 'Fazemos entregas!', 15.00,6, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(7,'Faxineiro', 'Preço por semana', 120.00,7, 0);
+    insert into tb_servico(cd_servico, nm_servico,ds_servico,vl_servico,cd_usuario, visualizacoes) values(8,'Cabeleireiro', 'Cabeleireiro UNISSEX, R$15.00 as quartas!', 20.00,8, 0);    
     
     -- avaliacão
     insert into tb_avaliacao(cd_avaliacao, nivel_avaliacao, comentario_avaliacao, cd_usuario, cd_servico) values(1, 5, 'Muito bom', 5,1);
