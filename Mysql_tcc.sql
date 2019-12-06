@@ -37,6 +37,7 @@ create table tb_servico(
 	ds_servico varchar(300),
 	vl_servico decimal(9,2),
 	cd_usuario int,
+	visualizacoes int,
 	constraint pk_servico
 		primary key(cd_servico),
 		

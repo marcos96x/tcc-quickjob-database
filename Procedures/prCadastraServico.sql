@@ -5,6 +5,6 @@ delimiter $
      in valor decimal(9, 2), 
      in usuario int)
 	begin
-		insert into tb_servico values (default, nome, descricao, valor, usuario);
+		insert into tb_servico values (default, nome, descricao, valor, usuario, 0);
         select "Serviço cadastrado com sucesso!" as msg;
 	end $
